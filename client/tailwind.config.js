@@ -13,9 +13,10 @@ export default {
         },
     },
     screen:{
-        'tablet' : '640px',
-        'laptop' : '1024px',
-        'desktop' : '1280px'
+        'Mobile' : '480px',
+        'tablet' : '1024px',
+        'laptop' : '1280px',
+        'desktop' : '1440px'
     },
   plugins: [],
 }
