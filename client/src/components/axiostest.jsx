@@ -1,11 +1,11 @@
 import React from 'react';
 
-function axiostest() {
+function Axiostest() {
     return (
-        <div>
-        
+        <div className="w-[500px] h-[500px] text-center">
+            <div className="text-white font-bold">secondpage</div>
         </div>
     );
 }
 
-export default axiostest;
+export default Axiostest;

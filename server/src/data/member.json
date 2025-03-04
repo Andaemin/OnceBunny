@@ -1,13 +1,21 @@
-[
-    {
-      "id": 1,
-      "name": "Nayeon",
-      "email": "nayeon@example.com"
-    },
-    {
-      "id": 2,
-      "name": "Jihyo",
-      "email": "jihyo@example.com"
-    }
-  ]
-  
+{
+    "twice" : [
+        {
+            "name" : "나연",
+            "englishname" : "nayeon",
+            "age" : "25"
+        },
+        {
+            "name" : "사나",
+            "englishname" : "sana",
+            "age" : "26"
+        }
+    ],
+    "newJeans" : [
+        {
+            "name" : "민지",
+            "englishname" : "minji",
+            "age" : "22"
+        }
+    ]
+} 

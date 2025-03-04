@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
+import Twicepage from './pages/twicepage';
 import './App.css'
 import axios from 'axios';
+import DiagonalSplit from './components/diagonalSplit';
 
 function App() {
     const [memberData, setMemberData] = useState([]);
@@ -32,10 +34,17 @@ function App() {
             </h1>
             <h1 className=''>this page is a Twice and newJeans fan page</h1>
             <h1 className='font-bold font-size-5'>Is not official</h1>
+            <DiagonalSplit/>
             <div className='flex flex-row w-32 justify-between'>
-                {memberData.map((member) => (
-                <h1 key={member.name} member={member}>{member.name}</h1>
+                {memberData.twice.map((twicemember) => (
+                <h1 key={twicemember.name} twicemember={twicemember} className=''>{twicemember.name}</h1>
             ))}
+            </div>
+            <div>
+
+            </div>
+            <div className="items-center justify-center text-align-center">
+                <Twicepage/>
             </div>
       </div>
     );
